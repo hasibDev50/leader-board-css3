@@ -16,6 +16,8 @@ main{
     background-color: #fff;
     width: 870px;
     padding: 33px;
+    border-radius: 5px;
+    margin-top: 21px;
 }
 
 
@@ -79,4 +81,64 @@ main{
     font-weight: 400;
     color: #562EFF;
     text-decoration: none;
+}
+
+/* --------------------------------
+    latest courses section styles
+-------------------------------- */
+.latest-courses-section {
+    
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.course img{
+    width: 266px;
+    height: 141px;
+    border-radius: 5px;
+}
+.course-title{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0 0 0;
+}
+.course-instructor{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ED6B4F;
+    margin: 7px 0 20px 0;
+}
+.course-rating-and-time{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.fa-star.filled{
+    color: #ffc014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.fa-solid{
+    font-size: 12px;
+}
+.ratting{
+    margin: 0 30px 0 10px;
+}
+.course-time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FEE5DF;
+    color: #ED6B4F;
+    border-radius: 30px;
+   padding: 5px 8px;
+}
+.course-time p{
+    margin: 0;
+    padding: 0;
+}
+.fa-clock{
+    margin-right: 6px;
 }
